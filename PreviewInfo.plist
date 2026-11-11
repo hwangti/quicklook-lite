@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>QuickLookLitePreview</string>
+	<key>CFBundleIdentifier</key>
+	<string>kr.hwangti.quicklooklite.preview</string>
+	<key>CFBundleName</key>
+	<string>QuickLookLite</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>QLSupportedContentTypes</key>
+			<array>
+				<string>net.daringfireball.markdown</string>
+				<string>org.iso.sql</string>
+				<string>public.php-script</string>
+				<string>com.sun.java-source</string>
+				<string>public.json</string>
+				<string>public.xml</string>
+				<string>com.netscape.javascript-source</string>
+				<string>public.css</string>
+				<string>org.sass-lang.scss</string>
+				<string>public.shell-script</string>
+				<string>public.bash-script</string>
+				<string>public.zsh-script</string>
+				<string>com.microsoft.typescript</string>
+				<string>com.facebook.jsx-source</string>
+				<string>public.yaml</string>
+				<string>com.oracle.java-properties</string>
+			</array>
+			<key>QLSupportsSearchableItems</key>
+			<false/>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.quicklook.preview</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>QuickLookLitePreview.PreviewViewController</string>
+	</dict>
+</dict>
+</plist>
